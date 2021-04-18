@@ -41,6 +41,7 @@ h3 {
 h4 {
   font-weight: bold;
   color: black;
+  font-size: 2rem;
 }
 
 a{
