@@ -10,6 +10,7 @@ const GlobalStyles = createGlobalStyle`
 
 body {
   background: #E5E5E5;
+  font-family: 'Roboto', Arial;
 }
 
 button{
@@ -21,6 +22,7 @@ button{
   border-radius: 1.5rem;
   color: black;
   transition: all 0.5s ease;
+  font-family: 'Roboto', Arial;
   &:hover{
     background-color: #F54F33;
     color: white;

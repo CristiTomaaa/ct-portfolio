@@ -3,6 +3,7 @@ import aboutimg from '../img/aboutimg.png';
 
 //ADDING THE STYLES
 import styled from 'styled-components';
+import {StyledHeader, StyledDescription, StyledHide, SyledImage} from '../styles';
 
 const AboutSection = () => {
   return(
@@ -28,35 +29,5 @@ const AboutSection = () => {
 
 //STYLING COMPONENTS
 
-const StyledHeader = styled.div`
-  min-height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5rem;
-  color: black;
-`;
-
-const StyledDescription = styled.div`
-  flex: 1;
-  padding-right: 1.5rem;
-  h2{
-    font-weight:lighter;
-  }
-`;
-
-const SyledImage = styled.div`
-  flex: 1;
-  overflow: hidden;
-  img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-`;
-
-const StyledHide = styled.div`
-  overflow: hidden;
-`
 
 export default AboutSection;
