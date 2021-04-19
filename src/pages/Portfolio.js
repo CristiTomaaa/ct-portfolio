@@ -1,11 +1,53 @@
 import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+
+//IMPORT IMAGES
+import athlete from '../img/athlete-small.png';
+import theracer from '../img/theracer-small.png';
 
 const Portfolio = () => {
   return(
-    <div>
-      <h1>Portfolio</h1>
-    </div>
+    <Work>
+      <Project>
+        <h2>Project 1</h2>
+        <div className="line"></div>
+        <Link>
+          <img src={athlete} alt="Project Overview image"/>
+        </Link>
+      </Project>
+      <Project>
+        <h2>Project 2</h2>
+        <div className="line"></div>
+        <Link>
+          <img src={theracer} alt="Project Overview image"/>
+        </Link>
+      </Project>
+    </Work>
   )
 }
+
+const Work = styled.div`
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 5rem 10rem;
+  h2 {
+    padding: 1rem 0rem;
+  }
+`
+
+const Project = styled.div`
+  padding-bottom: 10rem;
+  .line {
+    height: 0.5rem;
+    background: #ccc;
+    margin-bottom: 3rem;
+  }
+  img {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+  }
+`
 
 export default Portfolio;
