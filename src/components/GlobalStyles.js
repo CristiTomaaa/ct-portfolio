@@ -19,10 +19,11 @@ button{
   cursor: pointer;
   padding: 1rem 2rem;
   border: 3px solid #F54F33;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
+  background-color: #E5E5E5;
   color: black;
   transition: all 0.5s ease;
-  font-family: 'Roboto', Arial;
+  font-family: 'Roboto', Arial;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   &:hover{
     background-color: #F54F33;
     color: white;

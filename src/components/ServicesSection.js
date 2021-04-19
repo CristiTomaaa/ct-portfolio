@@ -17,7 +17,7 @@ const ServicesSection = () => {
       <StyledDescription>
         <h2>High <span>quality</span> services</h2>
         <Cards>
-        <Card>
+          <Card>
             <div className="icon">
               <img src={clock} alt="clock icon"/>
               <h3>Efficient</h3>
@@ -67,7 +67,7 @@ const Services = styled(StyledHeader)`
 const Cards = styled.div`
   display:flex;
   flex-wrap: wrap;
-`
+`;
 
 const Card = styled.div`
   flex-basis: 20rem;
@@ -80,5 +80,6 @@ const Card = styled.div`
       padding: 1rem;
     }
   }
-`
+`;
+
 export default ServicesSection;

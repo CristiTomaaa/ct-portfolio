@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-
 export const StyledHeader = styled.div`
 min-height: 90vh;
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 5rem;
+padding: 5rem 10rem;
+margin-left: 8rem;
 color: black;
 `;
 
