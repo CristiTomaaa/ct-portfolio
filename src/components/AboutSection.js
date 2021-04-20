@@ -1,5 +1,7 @@
 import React from 'react';
 import aboutimg from '../img/aboutimg.png';
+//FRAMER MOTION
+import {motion} from 'framer-motion';
 
 //ADDING THE STYLES
 import styled from 'styled-components';
@@ -9,14 +11,14 @@ const AboutSection = () => {
   return(
     <StyledHeader>
       <StyledDescription>
-        <div className="title">
+        <motion.div className="title">
           <StyledHide>
-            <h2>Make your <span>ideas</span></h2>
+            <motion.h2>Make your <span>ideas</span></motion.h2>
           </StyledHide>
           <StyledHide>
-            <h2>become reality.</h2>
+            <motion.h2>become reality.</motion.h2>
           </StyledHide>
-        </div>
+        </motion.div>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi autem accusamus ex laboriosam porro, adipisci quam voluptatum .</p>
         <button>Contact</button>
       </StyledDescription>

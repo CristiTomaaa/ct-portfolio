@@ -6,9 +6,12 @@ import { Link } from 'react-router-dom';
 import athlete from '../img/athlete-small.png';
 import theracer from '../img/theracer-small.png';
 
+//PAGE ANIMATIONS
+import {motion} from 'framer-motion';
+import {pageAnimation} from '../animation';
 const Portfolio = () => {
   return(
-    <Work>
+    <Work variants={pageAnimation} exit="exit" initial="hidden" animate="show">
       <Project>
         <h2>Project 1 Next11</h2>
         <div className="line"></div>
@@ -27,7 +30,7 @@ const Portfolio = () => {
   )
 }
 
-const Work = styled.div`
+const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;

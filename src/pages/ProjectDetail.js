@@ -3,6 +3,13 @@ import styled from 'styled-components';
 import {useHistory} from 'react-router-dom';
 import {MovieState} from '../movieState';
 
+//IMPORT IMAGES
+import athlete from '../img/athlete-small.png';
+import theracer from '../img/theracer-small.png';
+
+//PAGE ANIMATIONS
+import {motion} from 'framer-motion';
+import {pageAnimation} from '../animation';
 
 const ProjectDetail = () => {
   const history = useHistory();
@@ -18,7 +25,7 @@ const ProjectDetail = () => {
   return (
     <>
     {movie && (
-    <StyledDetails>
+    <StyledDetails variants={pageAnimation} exit="exit" initial="hidden" animate="show">
       <StyledHeadline>
         <h2>{movie.title}</h2>
         <img src={movie.mainImg} alt="project image"/>
@@ -37,7 +44,7 @@ const ProjectDetail = () => {
   );
 }
 
-const StyledDetails = styled.div`
+const StyledDetails = styled(motion.div)`
   color: black;
 `
 
