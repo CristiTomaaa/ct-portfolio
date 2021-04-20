@@ -10,16 +10,16 @@ const Portfolio = () => {
   return(
     <Work>
       <Project>
-        <h2>Project 1</h2>
+        <h2>Project 1 Next11</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/portfolio/the-athlete">
           <img src={athlete} alt="Project Overview image"/>
         </Link>
       </Project>
       <Project>
         <h2>Project 2</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/portfolio/good-times">
           <img src={theracer} alt="Project Overview image"/>
         </Link>
       </Project>
@@ -35,7 +35,6 @@ const Work = styled.div`
     padding: 1rem 0rem;
   }
 `
-
 const Project = styled.div`
   padding-bottom: 10rem;
   .line {
