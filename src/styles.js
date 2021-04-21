@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 export const StyledHeader = styled.div`
 min-height: 90vh;
 display: flex;
@@ -7,6 +8,12 @@ justify-content: space-between;
 padding: 5rem 10rem;
 margin-left: 8rem;
 color: black;
+  @media (max-width: 1300px){
+    display: block;
+    padding: 5rem 2rem;
+    margin-left: 0rem;
+    text-align: center;
+  }
 `;
 
 export const StyledDescription = styled.div`
@@ -15,6 +22,16 @@ padding-right: 1.5rem;
 h2{
   font-weight:lighter;
 }
+  @media (max-width: 1300px){
+    padding: 0;
+    button {
+      margin: 2rem 0rem;
+    }
+    img {
+      display: flex;
+    }
+
+  }
 `;
 
 export const SyledImage = styled.div`
@@ -24,6 +41,11 @@ img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  @media (max-width: 1300px){
+    padding-top: 4rem;
+    max-height: 75%;
+    max-width : 75%;
+  }
 }
 `;
 

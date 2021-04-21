@@ -48,7 +48,7 @@ const FAQ = styled(StyledHeader)`
     font-weight: lighter;
   }
   .faq-line {
-    background: #cccccc;
+    background: #ccc;
     height: 0.2rem;
     margin: 2rem 0rem;
     width: 100%;

@@ -38,13 +38,13 @@ const ServicesSection = () => {
             </div>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </Card>
-          <div className="card">
+          <Card>
             <div className="icon">
               <img src={money} alt="clock icon"/>
               <h3>Affordable</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
+          </Card>
         </Cards>
       </StyledDescription>
       <SyledImage>
@@ -62,11 +62,16 @@ const Services = styled(StyledHeader)`
     width: 70%;
     padding: 2rem 0rem 4rem 0rem;
   }
+  @media (max-width: 1300px){
+  }
 `;
 
 const Cards = styled.div`
   display:flex;
   flex-wrap: wrap;
+  @media (max-width: 1300px){
+    justify-content: center;
+  }
 `;
 
 const Card = styled.div`
@@ -80,6 +85,14 @@ const Card = styled.div`
       padding: 1rem;
     }
   }
+  @media (max-width: 1300px){
+    justify-content: center;
+  }
+  /* @media (max-width: 1300px){
+    display: block;
+    align-items: center;
+    flex-direction: column;
+  } */
 `;
 
 export default ServicesSection;

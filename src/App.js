@@ -14,12 +14,16 @@ import {Switch, Route, useLocation} from 'react-router-dom';
 //ANIMATION
 import {AnimatePresence} from 'framer-motion';
 
+//SCROLL UP THE PAGE EVERYTIME YOU LOAD A NEW ONE
+import ScrollTop from './components/ScrollTop';
+
 function App() {
   const location = useLocation();
 
   return (
     <div className="App">
       <GlobalStyles />
+      <ScrollTop/>
       <Nav />
       <AnimatePresence exitBeforeEnter>
       <Switch location={location} key={location.pathname}>

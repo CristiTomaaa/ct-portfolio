@@ -70,6 +70,10 @@ const Awards =styled.div`
   margin: 5rem, 10rem;
   align-items: center;
   justify-content: space-around;
+  @media (max-width: 1300px){
+    display: block;
+    padding: 2rem 0rem;
+  }
 `
 
 const StyledAwards = styled.div`

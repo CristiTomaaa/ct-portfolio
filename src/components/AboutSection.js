@@ -3,7 +3,6 @@ import aboutimg from '../img/aboutimg.png';
 //FRAMER MOTION
 import {motion} from 'framer-motion';
 import {titleAnimation, fade} from '../animation';
-import Wave from './wave';
 
 //ADDING THE STYLES
 import styled from 'styled-components';

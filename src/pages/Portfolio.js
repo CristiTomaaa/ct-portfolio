@@ -35,7 +35,10 @@ const Work = styled(motion.div)`
   overflow: hidden;
   padding: 5rem 10rem;
   h2 {
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
+  }
+  @media (max-width: 1300px){
+    padding: 2rem 0rem;
   }
 `
 const Project = styled.div`
@@ -44,11 +47,23 @@ const Project = styled.div`
     height: 0.35rem;
     background: #F54F33;
     margin-bottom: 3rem;
+    @media (max-width: 1300px){
+      margin: 0rem 1rem 1rem 1rem;
+    }
   }
   img {
     width: 100%;
     height: 65vh;
     object-fit: cover;
+  @media (max-width: 1300px){
+    padding: 1rem 0rem;
+  }
+  }
+  @media (max-width: 1300px){
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
   }
 `
 
