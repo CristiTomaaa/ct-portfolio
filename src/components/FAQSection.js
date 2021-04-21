@@ -1,43 +1,39 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import {StyledHeader} from '../styles';
+import Toggle from './Toggle';
+import {AnimateSharedLayout} from 'framer-motion';
 
 const FAQSection = () => {
   return(
     <FAQ>
       <h2>Questions <span>FAQ</span></h2>
-      <div className="question">
-        <h4>How do I start ?</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, assumenda?</p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
-      <div className="question">
-        <h4>How do I start ?</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, assumenda?</p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
-      <div className="question">
-        <h4>How do I start ?</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, assumenda?</p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
-      <div className="question">
-        <h4>How do I start ?</h4>
-        <div className="answer">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, assumenda?</p>
-        </div>
-        <div className="faq-line"></div>
-      </div>
+      <AnimateSharedLayout>
+        <Toggle title='How do I start ?'>
+          <div className="question">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eius esse ipsum odio nesciunt quam sit doloremque maiores nostrum at?</p>
+            </div>
+          </div>
+        </Toggle>
+        <Toggle title="How do I start2 ?">
+          <div className="question">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, assumenda?</p>
+            </div>
+          </div>
+        </Toggle>
+        <Toggle title="How do I start3 ?">
+          <div className="question">
+            <div className="answer">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, assumenda?</p>
+            </div>
+          </div>
+        </Toggle>
+      </AnimateSharedLayout>
     </FAQ>
   )
 }
@@ -54,7 +50,7 @@ const FAQ = styled(StyledHeader)`
   .faq-line {
     background: #cccccc;
     height: 0.2rem;
-    marging: 2rem 0rem;
+    margin: 2rem 0rem;
     width: 100%;
   }
   .question {
