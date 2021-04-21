@@ -41,8 +41,8 @@ const Work = styled(motion.div)`
 const Project = styled.div`
   padding-bottom: 10rem;
   .line {
-    height: 0.5rem;
-    background: #ccc;
+    height: 0.35rem;
+    background: #F54F33;
     margin-bottom: 3rem;
   }
   img {
