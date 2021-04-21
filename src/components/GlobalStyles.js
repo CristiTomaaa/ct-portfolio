@@ -9,7 +9,8 @@ const GlobalStyles = createGlobalStyle`
 }
 
 body {
-  background: #E5E5E5;
+  /* background: #E5E5E5; */
+  background: #F6F6F6;
   font-family: 'Roboto', Arial;
 }
 
@@ -20,7 +21,7 @@ button{
   padding: 1rem 2rem;
   border: 3px solid #F54F33;
   border-radius: 1rem;
-  background-color: #E5E5E5;
+  background-color: #F6F6F6;
   color: black;
   transition: all 0.5s ease;
   font-family: 'Roboto', Arial;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -59,6 +60,14 @@ p {
   color: black;
   font-size: 1.4rem;
   line-height: 150%;
+}
+
+//MOBILE AND TABLET RESPONSIVE
+
+html {
+  @media (max-width: 1700px){
+    font-size: 75%;
+  }
 }
 
 `;
