@@ -20,7 +20,7 @@ const Nav = () => {
           <Line transition={{duration: 0.75}} initial={{width: '0%'}} animate={{width: pathname === '/portfolio' ? '50%' : '0%'}} />
         </li>
         <li>
-          <Link to="#">Roadmap</Link>
+          <Link to="/roadmap">Roadmap</Link>
           <Line transition={{duration: 0.75}} initial={{width: '0%'}} animate={{width: pathname === '/roadmap' ? '50%' : '0%'}} />
         </li>
         <li>
