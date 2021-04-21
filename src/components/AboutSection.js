@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import aboutimg from '../img/aboutimg.png';
 //FRAMER MOTION
 import {motion} from 'framer-motion';
@@ -21,7 +22,7 @@ const AboutSection = () => {
           </StyledHide>
         </motion.div>
         <motion.p variants={fade} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi autem accusamus ex laboriosam porro, adipisci quam voluptatum .</motion.p>
-        <motion.button variants={fade} >Contact</motion.button>
+        <Link to="/contact"><motion.button variants={fade} >Contact</motion.button></Link>
       </StyledDescription>
       <SyledImage>
         <img  src={aboutimg} alt="red circle with brackets"/>

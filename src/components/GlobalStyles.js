@@ -24,7 +24,8 @@ button{
   background-color: #F6F6F6;
   color: black;
   transition: all 0.5s ease;
-  font-family: 'Roboto', Arial;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-family: 'Roboto', Arial;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   &:hover{
     background-color: #F54F33;
     color: white;
