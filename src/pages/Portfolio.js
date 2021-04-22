@@ -13,7 +13,7 @@ const Portfolio = () => {
   return(
     <Work variants={pageAnimation} exit="exit" initial="hidden" animate="show">
       <Project>
-        <h2>Project 1 Next11</h2>
+        <h2>Project1</h2>
         <div className="line"></div>
         <Link to="/portfolio/the-athlete">
           <img src={athlete} alt="Project Overview image"/>
