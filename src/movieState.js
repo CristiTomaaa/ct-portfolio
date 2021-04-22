@@ -13,19 +13,14 @@ export const MovieState = () => {
       url: "/portfolio/the-athlete",
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Technology Stack",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "In order to built this project I have used HTML5, CSS3 and Vanilla JavaScript",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Project Story",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
-        },
-        {
-          title: "It’s okay lmao.",
-          description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "It is meant to be a simple and yet user friendly search engine for flight tickets and hotel rooms using a iframe from travelpayouts.com",
         },
       ],
     },

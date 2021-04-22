@@ -38,8 +38,8 @@ export const SyledImage = styled.div`
 flex: 1;
 overflow: hidden;
 img{
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   @media (max-width: 1300px){
     padding-top: 4rem;

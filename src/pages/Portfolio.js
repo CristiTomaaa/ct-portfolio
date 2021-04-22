@@ -13,19 +13,19 @@ const Portfolio = () => {
   return(
     <Work variants={pageAnimation} exit="exit" initial="hidden" animate="show">
       <Project>
-        <h2>Project1</h2>
+        <h2>AddFlight.com</h2>
         <div className="line"></div>
         <Link to="/portfolio/the-athlete">
           <img src={athlete} alt="Project Overview image"/>
         </Link>
       </Project>
-      <Project>
+      {/* <Project>
         <h2>Project 2</h2>
         <div className="line"></div>
         <Link to="/portfolio/good-times">
           <img src={theracer} alt="Project Overview image"/>
         </Link>
-      </Project>
+      </Project> */}
     </Work>
   )
 }

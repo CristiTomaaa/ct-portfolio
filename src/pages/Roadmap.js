@@ -6,9 +6,11 @@ import {pageAnimation, titleAnimation} from '../animation';
 import styled from 'styled-components';
 
 const Roadmap = () => {
-  return {
-    
-  }
+  return (
+    <div>
+      <h1>Project Roadmap</h1>
+    </div>
+  )
 }
 
 export default Roadmap;

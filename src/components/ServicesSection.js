@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 //IMPORT ICONS
 import clock from '../img/clock.svg';
-import diaphgram from '../img/diaphragm.svg';
+import diaphgram from '../img/100.svg';
 import money from '../img/money.svg';
 import teamwork from '../img/teamwork.svg';
 
@@ -22,28 +22,28 @@ const ServicesSection = () => {
               <img src={clock} alt="clock icon"/>
               <h3>Efficient</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>We craft award-winning responsive websites that look amazing on any device and are proven to convert.</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={teamwork} alt="clock icon"/>
               <h3>Teamwork</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Our expert web design and development team have years of experience in helping businesses stand out online.</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={diaphgram} alt="clock icon"/>
-              <h3>Diaphgram</h3>
+              <h3>Satisfaction</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>We know that businesses like yours don’t want to spend thousands on a unique website that may or may not work.</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={money} alt="clock icon"/>
               <h3>Affordable</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Our cheap website design for small business package gives you all the benefits of a bespoke web design, just without the price tag.</p>
           </Card>
         </Cards>
       </StyledDescription>
@@ -81,6 +81,7 @@ const Card = styled.div`
   .icon {
     display:flex;
     align-items: center;
+    max-width: 50px;
     h3 {
       margin-left: 1rem;
       color: black;

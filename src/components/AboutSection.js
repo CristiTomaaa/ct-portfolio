@@ -21,7 +21,7 @@ const AboutSection = () => {
             <motion.h2 variants={titleAnimation}>become reality.</motion.h2>
           </StyledHide>
         </motion.div>
-        <motion.p variants={fade} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi autem accusamus ex laboriosam porro, adipisci quam voluptatum .</motion.p>
+        <motion.p variants={fade} >Ensuring that your website is consistent with your brand and connects with your audience is essential.</motion.p>
         <Link to="/contact"><motion.button variants={fade} >Contact</motion.button></Link>
       </StyledDescription>
       <SyledImage>
