@@ -7,10 +7,10 @@ import goodtimes2 from "./img/good-times2.jpg";
 export const MovieState = () => {
   return [
     {
-      title: "The Athlete",
+      title: "AddFlight.com",
       mainImg: athlete,
       secondaryImg: athlete2,
-      url: "/portfolio/the-athlete",
+      url: "/portfolio/addflight",
       awards: [
         {
           title: "Technology Stack",

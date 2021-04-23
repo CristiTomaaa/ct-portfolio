@@ -1,7 +1,7 @@
 let timelineElements = [
   {
     id: 1,
-    title: "COMMIT 1",
+    title: "COMMIT #1",
     location: "Git Log: 66c96ce865032c35165d2ca25610ccb2cd9ee0cc",
     description:
       "Initialize the project using Create React App",
@@ -11,7 +11,7 @@ let timelineElements = [
   },
   {
     id: 2,
-    title: "COMMIT 2",
+    title: "COMMIT #2",
     location: "Git Log: 4681eb42768df2a88d069be00591c054a8704920",
     description:
       "Installed React and 4 more packages ( react-router-dom, framer-motion, react-intersection-observer and styled-components).",

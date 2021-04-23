@@ -16,6 +16,7 @@ import {AnimatePresence} from 'framer-motion';
 
 //SCROLL UP THE PAGE EVERYTIME YOU LOAD A NEW ONE
 import ScrollTop from './components/ScrollTop';
+import Roadmap from "./pages/Roadmap";
 
 function App() {
   const location = useLocation();
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route path="/portfolio" exact>
           <Portfolio />
+        </Route>
+        <Route path="/roadmap" exact>
+          <Roadmap />
         </Route>
         <Route path="/portfolio/:id">
           <ProjectDetail/>

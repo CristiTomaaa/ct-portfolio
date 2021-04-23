@@ -15,7 +15,7 @@ const Portfolio = () => {
       <Project>
         <h2>AddFlight.com</h2>
         <div className="line"></div>
-        <Link to="/portfolio/the-athlete">
+        <Link to="/portfolio/addflight">
           <img src={athlete} alt="Project Overview image"/>
         </Link>
       </Project>
