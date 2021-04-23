@@ -42,9 +42,14 @@ const FAQ = styled(StyledHeader)`
   display: block;
   span {
     display: block;
+    font-size: 3.5rem;
   }
   h2 {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
+    font-weight: lighter;
+  }
+  h4 {
+    font-size: 1.7rem;
     font-weight: lighter;
   }
   .faq-line {

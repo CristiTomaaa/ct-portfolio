@@ -16,13 +16,13 @@ body {
 
 button{
   font-weight: bold;
-  font-size: 1.1.rem;
+  font-size: 1.3rem;
   cursor: pointer;
   padding: 1rem 2rem;
   border: 3px solid #F54F33;
   border-radius: 1rem;
   background-color: #F6F6F6;
-  color: black;
+  color: #F54F33;
   transition: all 0.5s ease;
   font-family: 'Roboto', Arial;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
