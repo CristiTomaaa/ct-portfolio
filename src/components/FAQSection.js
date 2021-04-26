@@ -52,7 +52,7 @@ const FAQ = styled(StyledHeader)`
   }
   .faq-line {
     background: #ccc;
-    height: 0.2rem;
+    height: 1px;
     margin: 2rem 0rem;
     width: 100%;
   }

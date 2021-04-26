@@ -29,7 +29,7 @@ const Contact = () => {
               <img src={linkedin} alt="linkedin logo"/><a href="https://www.linkedin.com/in/cristi-toma-b5791217a/">LinkedIn</a>
             </SocialLinks>
             <SocialLinks variants={titleAnimation}>
-                <img src={git} alt="gihub logo"/><a href="http://github.com">GitHub</a>
+                <img src={git} alt="gihub logo"/><a href="https://github.com/CristiTomaaa">GitHub</a>
             </SocialLinks>
           </Hide>
         </div>
