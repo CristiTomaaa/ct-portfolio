@@ -9,27 +9,25 @@ const FAQSection = () => {
     <FAQ>
       <h2>Questions <span>FAQ</span></h2>
       <AnimateSharedLayout>
-        <Toggle title='How do I start ?'>
+        <Toggle title='I love your work! How do we start our colaboration ?'>
           <div className="question">
             <div className="answer">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eius esse ipsum odio nesciunt quam sit doloremque maiores nostrum at?</p>
+              <p>If you'd like to start a project now or in the near future, or you're just curious to know how we can help, <a href="/contact">get in touch!</a></p>
             </div>
           </div>
         </Toggle>
-        <Toggle title="How do I start2 ?">
+        <Toggle title="Are you're websites mobile responsive ?">
           <div className="question">
             <div className="answer">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, assumenda?</p>
+              <p>Over 60% of internet users are now using mobile, it’s quick and easy and every site should work on all devices. </p>
+              <p>So all of our sites are fully mobile responsive meaning your users can easily view your site and contact you about your great services on the go.</p>
             </div>
           </div>
         </Toggle>
-        <Toggle title="How do I start3 ?">
+        <Toggle title="Will the website be optimised for google search engine ?">
           <div className="question">
             <div className="answer">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, assumenda?</p>
+              <p>All of our sites are optimised for speed we compress all images, HTML and enable compression. We also set up Google Analytics so you can see who visits your brand new site. </p>
             </div>
           </div>
         </Toggle>

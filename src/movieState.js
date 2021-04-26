@@ -15,7 +15,7 @@ export const MovieState = () => {
         {
           title: "Technology Stack",
           description:
-            "In order to built this project I have used HTML5, CSS3 and Vanilla JavaScript",
+            "In order to built this project I have used HTML5, CSS3, SASS and Vanilla JavaScript",
         },
         {
           title: "Project Story",

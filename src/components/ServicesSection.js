@@ -36,14 +36,14 @@ const ServicesSection = () => {
               <img src={diaphgram} alt="clock icon"/>
               <h3>Satisfaction</h3>
             </div>
-            <p>We know that businesses like yours don’t want to spend thousands on a unique website that may or may not work.</p>
+            <p>Before, during and many months after your site is built, we will be here to support you.</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={money} alt="clock icon"/>
               <h3>Affordable</h3>
             </div>
-            <p>Our cheap website design for small business package gives you all the benefits of a bespoke web design, just without the price tag.</p>
+            <p>We believe out sites are reasonably priced after all they are all hand built, easy to use and built to last.</p>
           </Card>
         </Cards>
       </StyledDescription>

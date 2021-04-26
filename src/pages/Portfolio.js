@@ -56,7 +56,10 @@ const Project = styled.div`
     height: 65vh;
     object-fit: cover;
   @media (max-width: 1300px){
-    padding: 1rem 0rem;
+    /* padding: 1rem 0rem; */
+    object-fit: contain;
+    margin-top: -10rem;
+    margin-bottom: -18rem;
   }
   }
   @media (max-width: 1300px){

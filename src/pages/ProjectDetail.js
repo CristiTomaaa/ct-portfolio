@@ -63,6 +63,12 @@ const StyledHeadline = styled.div`
     height: 70vh;
     object-fit: cover;
   }
+  @media (max-width: 1300px){
+    img {
+      object-fit: contain;
+      margin-top: -13rem;
+    }
+  }
 `
 const Awards =styled.div`
   min-height: 80vh;
